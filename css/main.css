@@ -30,6 +30,7 @@ div.container#h h1 {
 }
 #rform {
   display:block;
+  margin: 0;
 }
 #redirect_button{
   font-variant-caps: all-petite-caps;
@@ -117,7 +118,8 @@ div.features h4 {
   grid-template-columns: 50% 50%;
 }
 div.container#s4 img{
-  max-width: 100%;
+  height: 100%;
+  justify-self: left;
 }
 p{
   font-weight: 500;
@@ -166,6 +168,7 @@ div.founder p.quote{
 #section_6 {
   background-image: url(../images/s6bg.png);
   background-repeat: round;
+  background-size: contain;
 }
 #s6{
   grid-template-rows: 15% 10% 25% 50%;
